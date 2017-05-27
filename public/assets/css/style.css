@@ -130,7 +130,12 @@ footer {
 
 .banner-img-small {
     width: 15rem;
-    height: 8rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 1rem;
+    border-color: #292b2c !important;
+    border: solid;
+    border-width: 1px;
 }
 
 /*
