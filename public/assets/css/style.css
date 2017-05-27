@@ -93,8 +93,8 @@ body {
 footer {
     background-color: #292b2c !important;
     color: #ffffff;
-    border-top: .05rem solid #7DA73E;
-    border-bottom: .05rem solid #7DA73E;
+    /*border-top: .05rem solid #7DA73E;
+    border-bottom: .05rem solid #7DA73E;*/
 }
 
 .footer-text {
@@ -115,6 +115,22 @@ footer {
     padding-right: 1em;
     width: 10rem;
     height: 10rem;
+}
+
+.banner-img-right {
+    float: right;
+    width: 20rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 1rem;
+    border-color: #292b2c !important;
+    border: solid;
+    border-width: 1px;
+}
+
+.banner-img-small {
+    width: 20rem;
+    height: 20rem;
 }
 
 /*
