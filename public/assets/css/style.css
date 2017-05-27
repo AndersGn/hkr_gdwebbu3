@@ -117,5 +117,50 @@ footer {
     height: 10rem;
 }
 
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: static;
+  
+    /* left: 0;
+    z-index: 1000;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #eee;
+    */
+}
+
+    .sidebar .nav {
+        margin-bottom: 20px;
+    }
+
+    .sidebar .nav-item {
+        width: 100%;
+    }
+
+        .sidebar .nav-item + .nav-item {
+            margin-left: 0;
+        }
+
+    .sidebar .nav-link {
+        border-radius: 0;
+    }
+
+.card-img-top {
+    width: 256px;
+    height: 256px;
+}
+.card {
+    border:none;
+}
+
+.card-block {
+    padding:0;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
 
 
