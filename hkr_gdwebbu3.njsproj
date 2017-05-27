@@ -31,10 +31,10 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="public\assets\js\bootstrap.js" />
-    <Compile Include="public\assets\js\jquery-3.1.1.slim.min.js" />
     <Compile Include="public\assets\js\tether.min.js" />
     <Compile Include="routes\index.js" />
-    <Compile Include="routes\users.js" />
+    <Compile Include="routes\contact.js" />
+    <Compile Include="routes\products.js" />
     <Content Include="package.json" />
     <Content Include="public\assets\css\bootstrap.css" />
     <Content Include="public\assets\css\font-awesome.min.css" />
@@ -67,8 +67,9 @@
     <Content Include="public\assets\images\Spikey_DeepBlueSomething_MG_7154.jpg" />
     <Content Include="public\assets\images\SubMariners_OceanSky_DSC03023.jpg" />
     <Content Include="public\assets\images\SvennesOrkester_NaturligtUPP_DSCN0586.jpg" />
-    <Content Include="public\index.html" />
     <Content Include="README.md" />
+    <Content Include="views\contact.pug" />
+    <Content Include="views\products.pug" />
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />

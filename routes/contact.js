@@ -2,9 +2,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET contacts. */
 router.get('/', function (req, res) {
-    res.render('index', { title: 'Mumsik' });
+    res.render('contact', { title: 'Kontakt' });
 });
 
 module.exports = router;

@@ -1,6 +1,8 @@
 ﻿extends layout
 
 block content
-  h1= message
+  <div class="container mt-5">
+  h1= 'Oooops ' + message
   h2= error.status
   pre #{error.stack}
+  </div>

@@ -2,9 +2,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
+/* GET products listing. */
 router.get('/', function (req, res) {
-    res.send('respond with a resource');
+    res.render('products', { title: 'Våra Produkter' });
 });
 
 module.exports = router;
