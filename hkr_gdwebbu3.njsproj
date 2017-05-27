@@ -58,6 +58,15 @@
     <Content Include="public\assets\icons\Instagram_icon.svg" />
     <Content Include="public\assets\icons\RSSFeed_icon.svg" />
     <Content Include="public\assets\icons\Search_icon.svg" />
+    <Content Include="public\assets\images\Babblarna_KluvenGodhet_DSC03003.jpg" />
+    <Content Include="public\assets\images\Brainstorm_LoveMakesYouNuts_DSC01162.jpg" />
+    <Content Include="public\assets\images\HangTen_LifeIsAWave.svg" />
+    <Content Include="public\assets\images\LP_Grafik_HalvLogga.svg" />
+    <Content Include="public\assets\images\LP_Grafik_HalvLoggaNoName.svg" />
+    <Content Include="public\assets\images\LP_Grafik_HalvLoggaNoPadding.svg" />
+    <Content Include="public\assets\images\Spikey_DeepBlueSomething_MG_7154.jpg" />
+    <Content Include="public\assets\images\SubMariners_OceanSky_DSC03023.jpg" />
+    <Content Include="public\assets\images\SvennesOrkester_NaturligtUPP_DSCN0586.jpg" />
     <Content Include="public\index.html" />
     <Content Include="README.md" />
     <Content Include="views\index.pug" />
