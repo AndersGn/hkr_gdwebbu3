@@ -76,3 +76,45 @@ body {
     height: 1rem;
 }
 
+.startpagejumbotron {
+    /*text-align: center;
+    border-bottom: .05rem solid #7DA73E;
+    margin-bottom: 0.5rem !important;
+    background-image: url(../images/_MG_7712_small.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;*/
+}
+
+
+/* Custom page footer */
+footer {
+    background-color: #292b2c !important;
+    color: #ffffff;
+    border-top: .05rem solid #7DA73E;
+    border-bottom: .05rem solid #7DA73E;
+}
+
+.footer-text {
+   
+}
+
+.card-img {
+    width:10rem;
+    height:10rem;
+    
+}
+
+
+.card-img-left {
+    border-bottom-left-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(.25rem - 1px);
+    float: left;
+    padding-right: 1em;
+    width: 10rem;
+    height: 10rem;
+}
+
+
+
