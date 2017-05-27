@@ -137,6 +137,12 @@ footer {
     border-width: 1px;
 }
 
+.banner-img:hover {
+    cursor: pointer;
+    border-color: #BC1126 !important;
+    border-width: 3px;
+}
+
 /*
  * Sidebar
  */
