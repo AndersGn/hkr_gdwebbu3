@@ -30,6 +30,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="public\assets\js\activenavitem.js" />
     <Compile Include="public\assets\js\bootstrap.js" />
     <Compile Include="public\assets\js\tether.min.js" />
     <Compile Include="routes\index.js" />
@@ -67,11 +68,11 @@
     <Content Include="public\assets\images\Spikey_DeepBlueSomething_MG_7154.jpg" />
     <Content Include="public\assets\images\SubMariners_OceanSky_DSC03023.jpg" />
     <Content Include="public\assets\images\SvennesOrkester_NaturligtUPP_DSCN0586.jpg" />
+    <Content Include="public\contact.html" />
+    <Content Include="public\index.html" />
+    <Content Include="public\productdetail.html" />
+    <Content Include="public\products.html" />
     <Content Include="README.md" />
-    <Content Include="views\contact.pug" />
-    <Content Include="views\products.pug" />
-    <Content Include="views\index.pug" />
-    <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>
