@@ -189,4 +189,9 @@ footer {
     padding-bottom:1rem;
 }
 
+.breadcrumb {
+    background-color: transparent;
+    font-size: 0.8rem;
+}
+
 
