@@ -140,8 +140,7 @@ footer {
 }
 
 .banner-img:hover {
-    cursor: pointer;
-    border-color: #BC1126 !important;
+    border-color: #f75f0b !important;
     border-width: 3px;
 }
 
