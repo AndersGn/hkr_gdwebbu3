@@ -49,11 +49,12 @@ body {
     background-color: #562104 !important;
 }
 
+.navbar-inverse .navbar-nav .nav-link {
+    color: #f75f0b;
+}
+
 /* End custom global navbar */
-
-
 /* Custom page footer */
-
 footer {
     background-color: #562104 !important;
     color: #ffffff;
@@ -152,11 +153,11 @@ footer {
     border-color: #f75f0b !important;
 }
 
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #A25E38; /* Light brown */
-    border-color: #419641;
-}
+    .btn-outline-success:hover {
+        color: white !important;
+        background-color: #f75f0b;
+        border-color: #419641;
+    }
 
 .btn-primary {
     color: #fff;
@@ -187,7 +188,7 @@ footer {
     border-color: #0275d8;
 }
 
-/* End scustom buttons */
+/* End custom buttons */
 
 /* Custom breadcrums */
 
@@ -205,6 +206,7 @@ footer {
 
 /* Custom map image */
 
+/* Custom table */
 td, th {
     color:white;
 }
@@ -212,3 +214,13 @@ td, th {
 .table-hover thead tr:hover th, .table-hover tbody tr:hover td  {
     background-color: #562104 !important;
 }
+
+/* End custom table*/
+
+/* Custom links */
+
+a {
+    color: #f75f0b;
+}
+
+/* End custom links*/
