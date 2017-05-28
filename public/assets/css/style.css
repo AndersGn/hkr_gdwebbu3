@@ -195,7 +195,7 @@ footer {
 }
 
 .card-img-locationmap {
-    width:30rem;
+    max-width: 100%;
 }
 
 
