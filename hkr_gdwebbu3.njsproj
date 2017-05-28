@@ -62,6 +62,7 @@
     <Content Include="public\assets\images\Babblarna_KluvenGodhet_DSC03003.jpg" />
     <Content Include="public\assets\images\Brainstorm_LoveMakesYouNuts_DSC01162.jpg" />
     <Content Include="public\assets\images\HangTen_LifeIsAWave.svg" />
+    <Content Include="public\assets\images\Karta.svg" />
     <Content Include="public\assets\images\LP_Grafik_HalvLogga.svg" />
     <Content Include="public\assets\images\LP_Grafik_HalvLoggaNoName.svg" />
     <Content Include="public\assets\images\LP_Grafik_HalvLoggaNoPadding.svg" />
