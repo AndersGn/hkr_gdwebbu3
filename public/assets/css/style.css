@@ -196,7 +196,8 @@ footer {
 /* Custom breadcrums */
 
 .breadcrumb-item {
-    color:white;
+    color: #f75f0b;
+    
 }
 
 /* End custom breadcrums */
@@ -227,3 +228,11 @@ a {
 }
 
 /* End custom links*/
+
+/* Custom dopdown item */
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #f75f0b;
+}
+
+/* End custom dopdown item */
