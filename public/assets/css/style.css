@@ -227,13 +227,15 @@ footer {
 
 /* End custom breadcrums */
 
+/* Custom map image */
+
 .card-img-locationmap {
-    background-color: white;
+    background-color: #A25E38;
     border-radius: 0.3rem;
 }
 
+/* End custom map image */
 
-/* Custom map image */
 
 /* Custom table */
 td, th {
