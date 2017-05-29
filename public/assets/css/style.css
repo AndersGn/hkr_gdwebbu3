@@ -11,7 +11,7 @@ Main structure
 ========================================================================== 
 */
 body {
-    font-family: 'Noto Sans', sans-serif, "Courier New", monospace !important;
+    font-family: 'Noto Sans', sans-serif !important;
     padding-top: 5rem;
     padding-bottom: 3rem;
     /* color: #5a5a5a; */
