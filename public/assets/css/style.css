@@ -248,15 +248,9 @@ a {
 /* Custom icons left of hamburger icon */
 .navbar-toggler-myicon {
     background: transparent;
-    -webkit-align-self: flex-start;
-    -ms-flex-item-align: start;
     align-self: flex-start;
     padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
     border:none;
-    /*  line-height: 1;
-    border: 1px solid transparent; 
-    border-radius: 0.25rem; */
 }
 
 .navbar-toggler-myicon:focus, .navbar-toggler:hover {
@@ -268,10 +262,7 @@ a {
     width: 1.5em;
     height: 1.5em;
     vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    -webkit-background-size: 100% 100%;
-    background-size: 100% 100%;
+
 }
 
 .navbar-toggler-myicon-left {
