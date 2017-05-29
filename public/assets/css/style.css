@@ -123,6 +123,20 @@ footer {
     color:white;
 }
 
+/* Fixing strange padding in first and last child when small screen*/
+
+@media (min-width: 576px) {
+
+    .card-deck .card:not(:first-child) {
+        margin-left: 0px;
+    }
+
+    .card-deck .card:not(:last-child) {
+        margin-right: 0px;
+    }
+
+}
+
 
 /* End custom cards */
 
