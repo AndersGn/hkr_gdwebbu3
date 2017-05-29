@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="ShoppingCart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 12 12" style="enable-background:new 0 0 12 12;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<title>Calendar_icon</title>
+<polyline class="st0" points="0.5,1.4 2.3,1.4 3.9,9.3 10.3,9.4 "/>
+<ellipse transform="matrix(0.9717 -0.2363 0.2363 0.9717 -2.4642 1.4536)" class="st1" cx="4.8" cy="11" rx="0.5" ry="0.5"/>
+<ellipse transform="matrix(0.9717 -0.2363 0.2363 0.9717 -2.3244 2.6202)" class="st1" cx="9.8" cy="11" rx="0.5" ry="0.5"/>
+<polygon class="st0" points="2.8,2.2 11.5,2.2 10.6,7.5 4,7.4 "/>
+<line class="st2" x1="3.9" y1="4.8" x2="10.9" y2="4.8"/>
+<line class="st2" x1="6.1" y1="2.6" x2="6.1" y2="7"/>
+<line class="st2" x1="8.3" y1="2.6" x2="8.3" y2="7"/>
+</svg>
