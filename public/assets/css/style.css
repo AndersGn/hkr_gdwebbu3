@@ -25,6 +25,11 @@ body {
     height: 1rem;
 }
 
+.myshopping-icon {
+    width: 2em;
+    height: 2em;
+}
+
 /* End my own icons */
 
 /* Custom jumbotron */
@@ -239,3 +244,49 @@ a {
 }
 
 /* End custom dopdown item */
+
+/* Custom icons left of hamburger icon */
+.navbar-toggler-myicon {
+    background: transparent;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    border:none;
+    /*  line-height: 1;
+    border: 1px solid transparent; 
+    border-radius: 0.25rem; */
+}
+
+.navbar-toggler-myicon:focus, .navbar-toggler:hover {
+    text-decoration: none;
+}
+
+.navbar-toggler-myicon-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.navbar-toggler-myicon-left {
+    position: absolute;
+    left: 2rem;
+}
+
+.navbar-toggler-myicon-right {
+    position: absolute;
+    right: 5rem;
+}
+
+/* button.navbar-toggler-myicon:focus { */
+button:focus {
+outline: 0 none !important;
+}
+
+/* End custom icons left of hamburger icon */
