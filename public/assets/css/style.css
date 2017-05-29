@@ -88,8 +88,8 @@ footer {
     border-top-left-radius: calc(.25rem - 1px);
     float: left;
     padding-right: 1em;
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 .card-img-top {
