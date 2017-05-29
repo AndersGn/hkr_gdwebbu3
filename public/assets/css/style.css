@@ -353,3 +353,18 @@ outline: 0 none !important;
 }
 
 /* End custom notifiction icon did not look good in edge */
+
+/* Custom dropdown button */
+
+.mystyleddropdown {
+    font-family: inherit !important;
+}
+
+.dropdown-menu {
+    background-color: #A25E38;
+    color:white;
+}
+
+.dropdown-item {
+    color: white;
+}
