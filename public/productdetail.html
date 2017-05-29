@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!-- Fonts -->
     <link rel="stylesheet" href="assets/css/webfonts.css">
+    <link href="assets/css/bootstrap-notifications.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -22,6 +23,7 @@
             <!-- my custom hamburger icons -->
             <button class="navbar-toggler-myicon navbar-toggler-myicon-right hidden-lg-up" type="button">
                 <img class="p-0 m-0 navbar-toggler-myicon-icon" src="assets/icons/ShoppingCart_icon.svg" alt="Kundvagns ikon">
+                <span data-count="1" class="hamburgershoppingcart notification-icon form-inline" aria-hidden="true"></span>
             </button>
             <!-- End my custom hamburger icons -->
 
@@ -47,6 +49,7 @@
                 <!-- my custom shoppingcart icon -->
                 <p class="pr-3 pt-1 my-2 my-lg-0 hidden-md-down">
                     <img class="myshopping-icon" src="assets/icons/ShoppingCart_icon.svg" width="30" alt="Kundvagns ikon">
+                    <span data-count="1" class="nohamburgershoppingcart notification-icon form-inline" aria-hidden="true"></span>
                 </p>
                 <!-- my custom shoppingcart icon -->
 
@@ -57,7 +60,7 @@
             </div>
         </nav>
     </header>
-    <nav class="breadcrumb mt-4 mb-0">
+    <nav class="breadcrumb pt-0 mb-0">
         <a class="breadcrumb-item" href="index.html">Startsida</a>
         <a class="breadcrumb-item" href="products.html">Våra produkter</a>
         <a class="breadcrumb-item" href="products.html">Reggea</a>
@@ -75,7 +78,7 @@
                             <p class="card-text">Spikey släpper sin första skiva och förtrollar åhörarna i helt egen stil. Lyssna och njut av en fantasifull undervattensupplevelse där allt sätts på sin spets.</p>
                         </div>
                         <div class="card-block pt-0">
-                            <a href="productdetail.html" class="btn btn-primary">369 kr Köp</a>
+                            <p id="mybuybutton" class="btn btn-primary">369 kr Köp</p>
                         </div>
                     </div>
                 </div>
@@ -211,6 +214,13 @@
         $('myCarousel').carousel({
             interval: 8000
         })
+    </script>
+    <!--Add a counter to shopping cart -->
+    <script>
+        $("#mybuybutton").click(function () {
+            $(".nohamburgershoppingcart").css('visibility', 'visible');
+            $(".hamburgershoppingcart").css('visibility', 'visible');
+        });
     </script>
 
 </body>
