@@ -126,6 +126,11 @@ footer {
     color:white;
 }
 
+.card-text {
+
+    font-family: 'Arial';
+}
+
 /* Fixing strange padding in first and last child when small screen*/
 
 @media (min-width: 576px) {
