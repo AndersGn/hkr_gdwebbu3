@@ -89,6 +89,7 @@ footer {
     padding-right: 1em;
     width: 15rem;
     height: 15rem;
+    margin-bottom:2rem;
 }
 
 .card-img-top {
@@ -100,7 +101,11 @@ footer {
     border: none;
     background-color: #6F2D08;
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 1.1rem;
+}
+
+.card.mynews {
+    border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .card-block-products {
@@ -112,30 +117,16 @@ footer {
 
 }
 
-.breadcrumb {
-    background-color: transparent;
-    font-size: 0.8rem;
-}
-
-.breadcrumb-item:hover {
-    color: white;
-}
-
-.breadcrumb-item.active {
-    color: #cccaca !important;
-}
-
 .card-img-locationmap {
     max-width: 100%;
 }
 
 .card-header {
     background-color: #A25E38;
-    color:white;
+    color: white;
 }
 
 .card-text {
-
     font-family: 'Arial';
 }
 
@@ -150,11 +141,24 @@ footer {
     .card-deck .card:not(:last-child) {
         margin-right: 0px;
     }
+}
+/* End custom cards */
 
+/* Custom breadcrumbs */
+.breadcrumb {
+    background-color: transparent;
+    font-size: 0.8rem;
 }
 
+.breadcrumb-item:hover {
+    color: white;
+}
 
-/* End custom cards */
+.breadcrumb-item.active {
+    color: #cccaca !important;
+}
+
+/* Custom breadcrumbs */
 
 /* My own banner */
 
@@ -194,11 +198,11 @@ footer {
     border-color: #f75f0b !important;
 }
 
-    .btn-outline-success:hover {
+ .btn-outline-success:hover {
         color: white !important;
         background-color: #f75f0b;
         border-color: #419641;
-    }
+ }
 
 .btn-primary {
     color: #fff;
@@ -210,6 +214,7 @@ footer {
     color: #fff;
     background-color: #d34e05;
     border-color: #d34e05;
+    cursor:pointer;
 }
 
 .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
