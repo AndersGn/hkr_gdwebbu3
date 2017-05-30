@@ -62,7 +62,7 @@ body {
 }
 
 .navbar-brand {
-    padding:0;
+    padding-right:1rem;
 }
 
 /* End custom global navbar */
