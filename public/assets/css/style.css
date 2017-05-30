@@ -14,7 +14,6 @@ body {
     font-family: 'Noto Sans', sans-serif !important;
     padding-top: 5rem;
     padding-bottom: 3rem;
-    /* color: #5a5a5a; */
     background-color: #6F2D08;
 }
 
@@ -71,17 +70,17 @@ body {
 footer {
     background-color: #562104 !important;
     color: #ffffff;
+    font-size: 1rem;
 }
 
+.footer-text {
+    font-family: 'Arial';
+}
 /* End custom page footer */
-
-
 /* Custom cards */
-
 .card-img {
     width: 10rem;
     height: 10rem;
-
 }
 .card-img-left {
     border-bottom-left-radius: calc(.25rem - 1px);
