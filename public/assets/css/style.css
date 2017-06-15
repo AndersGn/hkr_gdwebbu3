@@ -78,39 +78,25 @@ footer {
 }
 /* End custom page footer */
 /* Custom cards */
-.card-img {
-    width: 10rem;
-    height: 10rem;
-}
+
 .card-img-left {
     border-bottom-left-radius: calc(.25rem - 1px);
     border-top-left-radius: calc(.25rem - 1px);
     float: left;
-    padding-right: 1em;
+    margin-right: 1em;
     width: 15rem;
     height: 15rem;
-    margin-bottom:2rem;
 }
-
+/* Fix height problem in IE 11 */
 .card-img-top {
-    width: 256px;
-    height: 256px;
+    width: 15rem;
+    height: 15rem;
 }
 
 .card {
     border: none;
     background-color: #6F2D08;
     color: white;
-    margin-bottom: 1.1rem;
-}
-
-.card-block-products {
-    padding: 0rem;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    padding-left:0.2rem;
-    padding-right:5rem;
-
 }
 
 .card-img-locationmap {
